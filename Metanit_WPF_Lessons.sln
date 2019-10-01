@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Metanit_WPF_Lessons", "Metanit_WPF_Lessons\Metanit_WPF_Lessons.shproj", "{03FA9E49-3359-4C6B-ABB9-9EFBB7F3AE16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lesson3", "Lesson3", "{C582391E-0ED6-4D98-93A0-C04F79501642}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work1", "Work1", "{3DAFBE9F-9037-4782-8D09-3CE035AD91D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitter", "GridSplitter\GridSplitter.csproj", "{F777B693-3CE7-4213-A1E5-1021D28EDAB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work2", "Work2", "{E648695A-97B8-4894-BDF8-ABB384686CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackPanel", "StackPanel\StackPanel.csproj", "{E72ABD3A-79F8-479D-86E3-010E588EA0D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work3", "Work3", "{5E1D370F-F069-4376-8C7E-B7042DEFD8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockPanel", "DockPanel\DockPanel.csproj", "{3096C637-B243-4CEA-8113-D0D25036C7C6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Metanit_WPF_Lessons\Metanit_WPF_Lessons.projitems*{03fa9e49-3359-4c6b-abb9-9efbb7f3ae16}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F777B693-3CE7-4213-A1E5-1021D28EDAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F777B693-3CE7-4213-A1E5-1021D28EDAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F777B693-3CE7-4213-A1E5-1021D28EDAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F777B693-3CE7-4213-A1E5-1021D28EDAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72ABD3A-79F8-479D-86E3-010E588EA0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72ABD3A-79F8-479D-86E3-010E588EA0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72ABD3A-79F8-479D-86E3-010E588EA0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72ABD3A-79F8-479D-86E3-010E588EA0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3096C637-B243-4CEA-8113-D0D25036C7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3096C637-B243-4CEA-8113-D0D25036C7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3096C637-B243-4CEA-8113-D0D25036C7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3096C637-B243-4CEA-8113-D0D25036C7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DAFBE9F-9037-4782-8D09-3CE035AD91D9} = {C582391E-0ED6-4D98-93A0-C04F79501642}
+		{F777B693-3CE7-4213-A1E5-1021D28EDAB9} = {3DAFBE9F-9037-4782-8D09-3CE035AD91D9}
+		{E648695A-97B8-4894-BDF8-ABB384686CE5} = {C582391E-0ED6-4D98-93A0-C04F79501642}
+		{E72ABD3A-79F8-479D-86E3-010E588EA0D1} = {E648695A-97B8-4894-BDF8-ABB384686CE5}
+		{5E1D370F-F069-4376-8C7E-B7042DEFD8C2} = {C582391E-0ED6-4D98-93A0-C04F79501642}
+		{3096C637-B243-4CEA-8113-D0D25036C7C6} = {5E1D370F-F069-4376-8C7E-B7042DEFD8C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEACA7FE-AE32-406E-A47D-5157F15E964B}
+	EndGlobalSection
+EndGlobal

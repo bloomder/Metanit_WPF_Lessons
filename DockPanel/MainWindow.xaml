@@ -1,0 +1,42 @@
+﻿<Window x:Class="DockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" Grid.Column="0">
+                <TextBlock Background="Green"/>
+                <TextBlock Background="Yellow"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
+                <TextBlock Background="Gold"/>
+                <TextBlock Background="Gray"/>
+            </StackPanel>
+            <StackPanel Grid.Row="0" Grid.Column="2">
+                <TextBlock Background="Blue"/>
+                <TextBlock Background="Brown"/>
+            </StackPanel>
+        </Grid>
+        <Grid DockPanel.Dock="Right">
+            
+        </Grid>
+        <Grid DockPanel.Dock="Left">
+            
+        </Grid>
+        <Grid DockPanel.Dock="Bottom">
+            
+        </Grid>
+        <Grid>
+            
+        </Grid>
+    </DockPanel>
+</Window>
