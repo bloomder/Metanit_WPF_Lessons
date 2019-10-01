@@ -27,7 +27,7 @@
             </StackPanel>
         </Grid>
         <Grid DockPanel.Dock="Right">
-            
+            <TextBlock/>
         </Grid>
         <Grid DockPanel.Dock="Left">
             
