@@ -6,37 +6,10 @@
         xmlns:local="clr-namespace:DockPanel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <DockPanel>
-        <Grid DockPanel.Dock="Top">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <StackPanel Grid.Row="0" Grid.Column="0">
-                <TextBlock Background="Green"/>
-                <TextBlock Background="Yellow"/>
-            </StackPanel>
-            <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal">
-                <TextBlock Background="Gold"/>
-                <TextBlock Background="Gray"/>
-            </StackPanel>
-            <StackPanel Grid.Row="0" Grid.Column="2">
-                <TextBlock Background="Blue"/>
-                <TextBlock Background="Brown"/>
-            </StackPanel>
-        </Grid>
-        <Grid DockPanel.Dock="Right">
-            <TextBlock/>
-        </Grid>
-        <Grid DockPanel.Dock="Left">
-            
-        </Grid>
-        <Grid DockPanel.Dock="Bottom">
-            
-        </Grid>
-        <Grid>
-            
-        </Grid>
+    <DockPanel LastChildFill="False">
+        <TextBlock DockPanel.Dock="Top" Background="Green" Text="DockPanel.Dock=Top"/>
+        <TextBlock DockPanel.Dock="Bottom" Background="Gray" Text="DockPanel.Dock=Bottom"/>
+        <TextBlock DockPanel.Dock="Left" Background="Brown" Text="DockPanel.Dock=Left"/>
+        <TextBlock DockPanel.Dock="Right" Background="Yellow" Text="DockPanel.Dock=Right"/>
     </DockPanel>
 </Window>
