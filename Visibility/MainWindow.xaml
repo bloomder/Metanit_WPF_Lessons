@@ -1,0 +1,16 @@
+﻿<Window x:Class="Visibility.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Visibility"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="300">
+    <WrapPanel Orientation="Vertical" HorizontalAlignment="Left">
+        <TextBlock Padding="5" Text="TextBlock 1" Background="BlueViolet"/>
+        <TextBlock Padding="5" Text="TextBlock 2" Background="AliceBlue" Visibility="Collapsed"/>
+        <TextBlock Padding="5" Text="TextBlock 3" Background="CadetBlue" Visibility="Hidden"/>
+        <TextBlock Padding="5" Text="TextBlock 4" Background="Coral"/>
+        <TextBlock Padding="5" Text="TextBlock 5" Background="ForestGreen"/>
+    </WrapPanel>
+</Window>
