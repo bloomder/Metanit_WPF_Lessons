@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Canvas"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="200" Width="400">
     <Grid>
-        
+        <Canvas Background="Lavender">
+            <Button Background="AliceBlue" Content="Top 20 Left 40"
+                    Canvas.Top="20" Canvas.Left="40"/>
+            <Button Background="LightSkyBlue" Content="Top 20 Right 20"
+                    Canvas.Top="20" Canvas.Right="20"/>
+            <Button Background="Aquamarine" Content="Bottom 30 Left 20"
+                    Canvas.Bottom="30" Canvas.Left="20"/>
+            <Button Background="LightCyan" Content="Bottom 20 Right 40"
+                    Canvas.Bottom="20" Canvas.Right="40"/>
+        </Canvas>
     </Grid>
 </Window>
